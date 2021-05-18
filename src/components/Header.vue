@@ -3,7 +3,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light">
   <div class="navbar-brand">  
-  <img src=" @/assets/logo.svg"> 
+  <img src="@/assets/logo.svg" class="image-logo"> 
   </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span> 
@@ -56,8 +56,6 @@ export default {
   width : 100% ;
   padding : 15px !important;
   display : flex !important;
-
-
 }
 
 .nav-item{
@@ -76,7 +74,7 @@ export default {
 nav div p{
   font-family: Verdana, sans-serif;
 }
-
-
-
+.image-logo{
+  margin-right: 25px;
+}
 </style>

@@ -8,7 +8,7 @@
       <div class="col-md-6 col-sm-12">
         <div class="col-md-8 col-sm-12 container-1">
           
-           <img src="" class="image-logo" >
+          <div class="image-logo"> <img src="@/assets/logo.svg" class="image-logo" ></div>
              
              <p><span>LaserVPN</span> is a private virtual network that has unique feature and has high security.</p>
              <div class="image-logo" >
@@ -103,6 +103,7 @@ div p{
 }
 .image-logo{
   text-align: start;
+  margin-bottom: 15px;
 
 }
 .footer{
@@ -123,6 +124,7 @@ div p{
   }
 .container-1{
   margin-top: 45px;
+  margin-bottom: 60px;
 }
 
 </style>
