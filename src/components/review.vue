@@ -1,12 +1,10 @@
 <template>
 
   <div class="container background ">
-      <div class="row justify-content-center align-items-center container-2">
+    <div class="row justify-content-center align-items-center container-2">
        
       <img src="@/assets/customer-review.png"  class="img-fluid">
-    </div>
-   
-   
+    </div> 
   </div>
 
 </template>
