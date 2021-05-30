@@ -24,7 +24,7 @@
       <div class="col-md-6 col-sm-12 mar-4">
 
  <div class="row justify-content-start">
-        <div class="col-md-4 col-sm-12  container-1">
+        <div class="col-md-3 col-sm-12  container-1">
               <h4> Product</h4>
             <p>Download</p>
             <p>Pricing</p>
@@ -33,7 +33,7 @@
             <p>Countries</p>
             <p>Blog</p>
         </div>
-          <div class="col-md-4 col-sm-12  container-1">
+          <div class="col-md-3 col-sm-12  container-1">
               <h4> Engage</h4>
             <p>LaseVPN?</p>
             <p>FAQ</p>
@@ -43,7 +43,7 @@
             <p>Terms of service</p>
         </div>
           
-            <div class="col-md-4 col-sm-12 container-1">
+            <div class="col-md-5 col-sm-12 container-1">
             <h4> Earn Money</h4>
             <p>Affiliate</p>
             <p>Become Partner</p>
@@ -107,7 +107,7 @@ div p{
 
 }
 .footer{
-  background-color: #F1EDED ;
+  background-color: #F4F4F4 ;
 }
 .button {
   width: 200px;
@@ -127,4 +127,7 @@ div p{
   margin-bottom: 60px;
 }
 
+.container-2 {
+  justify-content:flex-end;
+}
 </style>

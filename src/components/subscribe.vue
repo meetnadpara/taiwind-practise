@@ -66,7 +66,7 @@ div p{
   background-color: red;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 5px 15px 0px red ;
+  box-shadow: 1px 10px 25px -10px red ;
   cursor: pointer;
   outline: none;
   }

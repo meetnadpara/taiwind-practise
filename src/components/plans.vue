@@ -36,9 +36,9 @@
         </div>
       </div>
       </div>
-       <div class="raw align-items-end">
-        <div>
-      <div class=" d-flex plan justify-content-center align-self-bottom">
+       <div class="raw">
+        <div class="end">
+      <div class=" d-flex align-items-end plan justify-content-center">
         <h4>$12  <span> / mo</span></h4>
       </div>
        <button class="btn btn-outline-danger rounded-pill ml-8" type="submit"><span>Select</span></button>
@@ -188,7 +188,11 @@ div p{
   font-weight : bold ;
   font-size: 11px;
 }
+.end{
+  flex-direction: column;
 
+  
+}
 .container-1{
   padding:20px ;
   border:solid 0.5px grey;

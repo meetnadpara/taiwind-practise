@@ -20,24 +20,24 @@
   
     <div class="raw d-flex box-shadow align-items-center">
       
-      <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+      <div class="col-md-4 col-sm-12 vl d-flex justify-content-center">
         <div class="raw d-flex box-shadow align-items-center">
         <div class="col align-self-center">
           <img src="@/assets/user.svg" class="img-fluid">
         </div>
 
-        <div class="col align-self-center">
-          <div class="raw">
+        <div class="col d-block align-self-center">
+          <div class="raw align-self-center">
           <h3>90+</h3>
         </div>
-        <div class="raw">
+        <div class="raw align-self-center">
          <p>Users</p>
         </div>
         </div>
          </div>
        </div> 
      
-      <div class="col-md-4  col-sm-12 d-flex justify-content-center">
+      <div class="col-md-4  col-sm-12 vl d-flex justify-content-center">
         <div class="raw d-flex box-shadow align-items-center">
         <div class="col align-self-center">
           <img src="@/assets/user.svg" class="img-fluid">
@@ -53,7 +53,7 @@
         </div>
          </div>
        </div> 
-        <div class="col-md-4  col-sm-12 d-flex justify-content-center">
+        <div class="col-md-4  col-sm-12  d-flex justify-content-center">
         <div class="raw d-flex box-shadow align-items-center">
         <div class="col align-self-center">
           <img src="@/assets/Server.svg"class="img-fluid" >
@@ -147,6 +147,13 @@ div p{
   cursor: pointer;
   outline: none;
   }
+.vl {
+  border-right: 1px solid #DED5D5;
+  margin-left: -3px;
+  border-opacity: 0.1 !important;
+ 
+}
+
 .get-started{
   text-align: start;
   margin-top: 35px;
