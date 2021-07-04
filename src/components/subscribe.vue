@@ -7,7 +7,7 @@
         <h1 class="justify-self-start">Subscribe Now for Get Special Features! </h1>
         <p class="pt-4"> Let's subscribe with us and find the fun.</p>  
         </div>  
-        <div class="pl-8 flex justify-start pt-8 md:pt-0">
+        <div class="pl-8 flex justify-start md:justify-center pt-8 md:pt-0">
        <button class="button ">Subscribe Now</button>
       </div>
     </div>
