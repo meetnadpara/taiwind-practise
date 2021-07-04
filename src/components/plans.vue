@@ -1,148 +1,148 @@
 <template>
 
-  <div class="container background ">
-      <div class="row justify-content-center align-items-center container-2">
-        <div class="col-md-5 col-sm-12 justify-content-center align-items-center">
-        <h1 class="text-center">Choose Your Plan</h1>
-        <p class="text-center">let's choose the package that is best for you and explore it happily and cheerfully.</p>
-      </div>
-  
-      </div>
-      <div class="row justify-content-center ">
-    
-      <div class="col-md-3 col-sm-12 border container-1 shadow">
-        <div class="col-md-12 ">
-            <img src="@/assets/Free.svg" class="image"alt="Random Name" >
-            <h1 style="text-align: center;">Free plan</h1>
-            <div class="col-md-12 justify-content-center">
-             <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Unlimited Bandwidth
-        </div>
-      </div>
-        <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Encrypted Connection
-        </div>
-      </div>
-        <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> No Traffic Logs
-        </div>
-      </div>
-        <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Works on All Devices
-        </div>
-      </div>
-      </div>
-       <div class="raw">
-        <div class="end">
-      <div class=" d-flex align-items-end plan justify-content-center">
-        <h4>$12  <span> / mo</span></h4>
-      </div>
-       <button class="btn btn-outline-danger rounded-pill ml-8" type="submit"><span>Select</span></button>
-     </div>
-      </div>
-       </div> 
-      </div>
+  <div class="container mx-auto bg-gray-50">
+      <div class="justify-center pt-12 ">
        
+        <h1 class="py-8 ">Choose Your Plan</h1>
+        <p class="pb-12 px-30">let's choose the package that is best for you and explore it happily and cheerfully.</p>
+      </div>
+
+
+      <div class="grid md:grid-cols-3 gap-2 justify-center">  
+
       
-        <div class="col-md-3 col-sm-12 border container-1 shadow">
-        <div class="col-md-12 ">
-            <img src="@/assets/Free.svg" class="image"alt="Random Name" >
-            <h1 style="text-align: center;">Standard plan</h1>
-            <div class="col-md-12 justify-content-center">
-             <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Unlimited Bandwidth
+        <div class=" mx-8 grid border rounded-lg bg-white hover:border-red-600 shadow">
+         <div> 
+          <div class=" justify-self-center pt-12">
+            <img src="@/assets/Free.svg" class="justify-self-center object-scale-down">     
+            <h1 class="my-8">Free plan</h1>  
+         </div>     
+        
+
+        <div class="px-16 self-start">
+
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Unlimited Bandwidth
+          </p>
         </div>
-      </div>
-        <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Encrypted Connection
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Encrypted Connection
+          </p>
         </div>
-      </div>
-        <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Yes Traffic Logs
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> No Traffic Logs
+          </p>
         </div>
-      </div>
-        <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Works on All Devices
-        </div>
-      </div>
-      <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Connect anywhare
-        </div>
-      </div>
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Works on all devices
+          </p>
+        </div>  
     </div>
+  </div>
+      <div class="my-8 self-end">
+        <h4 class="mb-5">Free</h4>
+       <button class="button rounded-pill" type="submit"><span>Select</span></button>
+     </div>   
+      </div>
 
-       <div class="raw align-items-end">
+<div class="grid border mx-8 rounded-lg bg-white hover:border-red-600 shadow">
+  <div>
+          <div class=" justify-self-center pt-12">
+            <img src="@/assets/Free.svg" class="justify-self-center object-scale-down"> 
+            <h1 class="my-8">Standard Plan</h1>      
+         </div>     
+        
+
+        <div class="px-16 self-start">
+
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Unlimited Bandwidth
+          </p>
+        </div>
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Encrypted Connection
+          </p>
+        </div>
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Yes Traffic Logs
+          </p>
+        </div>
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Works on all devices
+          </p>
+        </div>
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Connect Anyware
+          </p>
+        </div>
+       </div>
+    </div>
+      <div class="my-8 self-end">
+        <h4 class="mb-5">$9  <span> / mo</span></h4>
+       <button class="button rounded-pill" type="submit"><span>Select</span></button>
+     </div>   
+      </div>
+
+      <div class="grid border mx-8 hover:border-red-600 bg-white rounded-lg shadow">
         <div>
-      <div class=" d-flex plan justify-content-center align-self-bottom">
-        <h4>$12  <span> / mo</span></h4>
-      </div>
-       <button class="btn btn-outline-danger rounded-pill ml-8" type="submit"><span>Select</span></button>
-     </div>
-      </div>
-      </div>
-     
-      </div>
+          <div class=" justify-self-center pt-12">
+            <img src="@/assets/Free.svg" class="justify-self-center object-scale-down">       
+         </div>     
+        <h1 class="my-8">Premium Plan</h1>
 
+        <div class="self-start px-14">
 
-        <div class="col-md-3 col-sm-12 border container-1 shadow">
-        <div class="col-md-12 ">
-            <img src="@/assets/Free.svg" class="image"alt="Random Name" >
-            <h1 style="text-align: center;">Premium plan</h1>
-            <div class="col-md-12 justify-content-center">
-             <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Unlimited Bandwidth
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Unlimited Bandwidth
+          </p>
         </div>
-      </div>
-        <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Encrypted Connection
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Encrypted Connection
+          </p>
         </div>
-      </div>
-        <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Yes Traffic Logs
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Yes Traffic Logs
+          </p>
         </div>
-      </div>
-        <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Works on All Devices
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Works on all devices
+          </p>
         </div>
-      </div>
-       <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Connect anywhare
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Connect Anyware
+          </p>
         </div>
-      </div>
-       <div class="d-flex align-items-center">
-        <img src="@/assets/jam_check.png">
-       <div class="align-self-center list-data"> Get New Features
+        <div class="flex mb-5 items-center">
+          <img src="@/assets/greencheck.svg">
+          <p class="ml-5 list-data"> Get New Features
+          </p>
         </div>
+       </div>
+    </div>
+      <div class="my-8 self-end">
+        <h4 class="mb-5">$12  <span> / mo</span></h4>
+       <button class="button rounded-pill" type="submit"><span>Select</span></button>
+     </div>   
       </div>
-
-      <div class="align-self-bottom">
-      <div class="d-flex plan justify-content-center align-items-center ">
-        <h4>$12  <span> / mo</span></h4>
-      </div>
-       <button class="btn btn-outline-danger rounded-pill ml-8" type="submit"><span>Select</span></button>
-      </div>
-       </div> 
+      
       </div>   
       </div>
 
-</div>
 
-
-  </div>
 
 </template>
 
@@ -155,12 +155,25 @@ export default {
 
 
 <style scoped lang="scss">
-.shadow{
-  box-shadow: 10px;
-}
-background{
-  background-color: red !important;
-}
+.button {
+  width: 160px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: red;
+  border: 1px solid red;
+  border-radius: 23px;
+  cursor: pointer;
+  outline: none;
+  padding:5px;
+  }
+
+.button:hover{
+  color: white;
+  background-color:red;
+  box-shadow: 1px 10px 25px -10px red ;
+  }
+
 div h4{
   font-weight : 700 ;
   color : black ;
@@ -173,13 +186,15 @@ h4 span{
   font-size: 18px;
 }
 div h1{
-  margin-top: 50px;
-  margin-bottom: 25px;
+
   font-weight : 800 ;
   color : black ;
   font-family: 'Rubik', sans-serif;
-  font-size:25px;
-  text-align: start;
+  font-size:22px;
+
+}
+img{
+  display: inline-block !important;
 }
 
 div p{
@@ -188,36 +203,16 @@ div p{
   font-weight : bold ;
   font-size: 11px;
 }
-.end{
-  flex-direction: column;
 
-  
-}
-.container-1{
-  padding:20px ;
-  border:solid 0.5px grey;
-  box-radius:10px !important;
-  margin: 20px;
-}
-.container-1:hover {
-  border:solid 1.5px red !important ;
-}
-.container-2{
-  margin-bottom: 30px ;
-  margin-top: 30px ;
- 
-}
 .list-data{
-  margin:10px ;
+
   font-family: Verdana, sans-serif;
   text-align: start;
   color: rgba(0,0,0,.5);
   font-weight : bold ;
   font-size: 11px;
 }
-.plan{
-  margin-top: 30px;
-}
+
 .rounded-pill{
   padding : 5px 50px 5px 50px !important;
 }

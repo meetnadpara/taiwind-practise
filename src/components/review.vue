@@ -1,9 +1,9 @@
 <template>
 
-  <div class="container background ">
-    <div class="row justify-content-center align-items-center container-2">
+  <div class="container mx-auto justify-center bg-gray-50 pb-28">
+    <div class="">
        
-      <img src="@/assets/customer-review.png"  class="img-fluid">
+      <img src="@/assets/customer-review.png"  class="object-scale-down">
     </div> 
   </div>
 

@@ -1,13 +1,13 @@
 <template>
-  <div class="container">
+  <div>
     <Header></Header>
-    <firstpage class="first-page"></firstpage>
-    <secondpage class="first-page"></secondpage>
-    <plans class="first-page"></plans>
-    <global class="first-page"></global>
-    <review class="first-page"></review>
-    <subscribe class="firstpage"></subscribe>
-    <footerpage class="firstpage"></footerpage>
+    <firstpage class=""></firstpage>
+    <secondpage class=""></secondpage>
+    <plans class=""></plans>
+    <global class=""></global>
+    <review class=""></review>
+    <subscribe class="-mb-5/6"></subscribe>
+    <footerpage class=""></footerpage>
     
   </div>
 </template>

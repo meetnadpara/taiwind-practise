@@ -1,61 +1,59 @@
 <template>
 
-<div class="container first-page footer">
+<div class="container bg-gray-100 mx-auto">
   
 
-
-<div class="row align-items-center" >
-      <div class="col-md-6 col-sm-12">
-        <div class="col-md-8 col-sm-12 container-1">
+  
+<div class="md:grid md:grid-cols-2 mx-auto md:justify-between w-5/6  pt-12 pb-18" >
+      <div class="">
+        
           
-          <div class="image-logo"> <img src="@/assets/logo.svg" class="image-logo" ></div>
+          <div class="mb-4 justify-center"> <img src="@/assets/logo.svg" class="object-scale-down" ></div>
              
-             <p><span>LaserVPN</span> is a private virtual network that has unique feature and has high security.</p>
-             <div class="image-logo" >
-             <img src="@/assets/Facebook.svg" class="img-fluid box-shadow">
-             <img src="@/assets/Twitter.svg" class="img-fluid box-shadow">
-             <img src="@/assets/Instagram.svg" class="img-fluid box-shadow"> 
+             <p class="md:w-1/2"><span>LaserVPN</span> is a Privacyate virtual network that has unique feature and has high security.</p>
+             <div class="pt-4 flex" >
+             <img src="@/assets/Facebook.svg" class="-ml-4 flex justify-start object-scale-down">
+             <img src="@/assets/Twitter.svg" class="object-scale-down">
+             <img src="@/assets/Instagram.svg" class="object-scale-down"> 
           
               </div>   
-              <p>@2020LaseVPN</p> 
-        </div>
-
+              <p class="">@2020LaseVPN</p> 
+    
       </div>
-      <div class="col-md-6 col-sm-12 mar-4">
 
- <div class="row justify-content-start">
-        <div class="col-md-3 col-sm-12  container-1">
-              <h4> Product</h4>
-            <p>Download</p>
-            <p>Pricing</p>
-            <p>Locations</p>
-            <p>Server</p>
-            <p>Countries</p>
-            <p>Blog</p>
+
+      <div class="grid md:grid-cols-3 justify-center pt-6 md:pt-0">
+
+        <div class="">
+              <h4 class="pb-4"> Product</h4>
+            <p class="pb-3">Download</p>
+            <p class="pb-3">Pricing</p>
+            <p class="pb-3">Locations</p>
+            <p class="pb-3">Server</p>
+            <p class="pb-3">Countries</p>
+            <p class="pb-3">Blog</p>
         </div>
-          <div class="col-md-3 col-sm-12  container-1">
-              <h4> Engage</h4>
-            <p>LaseVPN?</p>
-            <p>FAQ</p>
-            <p>Tutorials</p>
-            <p>About Us</p>
-            <p>Privacy Policy</p>
-            <p>Terms of service</p>
+          <div class="pt-4 md:pt-0">
+              <h4 class="pb-4"> Engage</h4>
+            <p class="pb-3">LaseVPN?</p>
+            <p class="pb-3">FAQ</p>
+            <p class="pb-3">Tutorials</p>
+            <p class="pb-3">About Us</p>
+            <p class="pb-3">Privacy Policy</p>
+            <p class="pb-3">Terms of service</p>
         </div>
           
-            <div class="col-md-5 col-sm-12 container-1">
-            <h4> Earn Money</h4>
-            <p>Affiliate</p>
-            <p>Become Partner</p>
+            <div class="pt-4 md:pt-0">
+            <h4 class="pb-4"> Earn Money</h4>
+            <p class="pb-3">Affiliate</p>
+            <p class="pb-3">Become Partner</p>
           </div>
           
-   </div>
+  
 
   </div>
 </div>  
 </div>
-</div>
-
 
  
 </template>
@@ -79,13 +77,10 @@ h4{
   font-family: 'Rubik', sans-serif;
   font-size: 15px;
   text-align: start;
-  margin-bottom: 20px;
+  
 }
 
 div h1{
-  margin-top: 25px;
-  margin-bottom: 12px;
-  margin-left: 30px;
   font-weight : 750 ;
   color : black ;
   font-family: 'Rubik', sans-serif;
@@ -101,11 +96,7 @@ div p{
   font-size: 11px;
   
 }
-.image-logo{
-  text-align: start;
-  margin-bottom: 15px;
 
-}
 .footer{
   background-color: #F4F4F4 ;
 }
@@ -122,12 +113,4 @@ div p{
   cursor: pointer;
   outline: none;
   }
-.container-1{
-  margin-top: 45px;
-  margin-bottom: 60px;
-}
-
-.container-2 {
-  justify-content:flex-end;
-}
 </style>

@@ -1,37 +1,37 @@
 <template>
 
-  <div class="container">
-    <div class="row  justify-content-center">
+  <div class="mt-12 pb-12 container mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 justify-between gap-6 items-center">
      
     
-      <div class="col-md-6 col-sm-12">
+      <div class="items-center">
        
-        <img src="@/assets/Illustration 2.svg"  class="img-fluid">
+        <img src="@/assets/Illustration 2.svg"  class="object-scale-down">
       
     </div>
     
- <div class="col-md-4 col-sm-12 container-1">
+ <div class="items-start ">
        
-        <h1 style="margin-top: 60px;">We Provide Many Feature You Can Use</h1>
-        <p>You can explore the feature that we provide with fun and have their own fuctions each feature.</p> 
-      <div class="d-flex align-items-center">
+        <h1>We Provide Many Feature You Can Use</h1>
+        <p class="mb-10">You can explore the feature that we provide with fun and have their own fuctions each feature.</p> 
+      <div class="flex mb-5 items-center">
         <img src="@/assets/greencheck.svg">
-       <div class="align-self-center list-data"> Powerfull online protection
+       <div class="ml-5 list-data"> Powerfull online protection
         </div>
       </div>
-        <div class="d-flex align-items-center">
+        <div class="flex mb-5 items-center">
         <img src="@/assets/greencheck.svg">
-       <div class="align-self-center list-data"> Internet without border
+       <div class="ml-5 list-data"> Internet without border
         </div>
       </div>
-        <div class="d-flex align-items-center">
+        <div class="flex mb-5 items-center">
         <img src="@/assets/greencheck.svg">
-       <div class="align-self-center list-data"> Supercharged VPN
+       <div class="ml-5 list-data"> Supercharged VPN
         </div>
       </div>
-        <div class="d-flex align-items-center">
+        <div class="flex items-center">
         <img src="@/assets/greencheck.svg">
-       <div class="align-self-center list-data"> No specific time limits.
+       <div class="ml-5 list-data"> No specific time limits.
         </div>
       </div>
       
@@ -69,19 +69,8 @@ div p{
   font-weight : bold ;
   font-size: 11px;
 }
-
-.container-1{
-  margin-bottom: 20px ;
-}
-.container-2{
-  margin-bottom: 20px ;
-  margin-top: 100px ;
-  padding: 20px;
-}
 .list-data{
-  margin:10px ;
   font-family: Verdana, sans-serif;
-  text-align: start;
   color: rgba(0,0,0,.5);
   font-weight : bold ;
   font-size: 11px;
